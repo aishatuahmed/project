@@ -1,0 +1,404 @@
+/* CSS FOR PAGE 'ARTWORK' */
+
+
+
+*{
+    font-family: 'Montserrat'
+}
+
+*{
+  background-color: rgb(248, 248, 248);
+}
+
+
+h1{
+  color: #fcb6b8;
+  background-color: transparent;
+}
+
+h4{
+
+  color: #fcb6b8;
+    
+}
+
+
+
+p{
+  color: #fcb6b8;
+  font-size: 22px;
+  background-color: transparent;
+}
+
+
+
+.otherheader {
+  padding: 10px;
+  background-color: #3c8bcc;
+  font-size: 30px;
+  max-width: 100%;
+  margin: 7%;
+  text-align: center;
+
+    
+    
+}
+  
+
+/* FOOTER */
+
+  footer{
+    
+    border: rgb(0, 0, 0);
+    border-width: 5pxxx;
+    padding: 5px;
+    text-align: right;
+    background-color: #3c8bcc;
+    margin-top: 10px;
+    
+    
+} 
+
+  .socials{
+    background-color: transparent;
+  }
+  
+  .socials a{
+    background-color: transparent;
+  }
+  
+
+
+.logo{
+  float: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:active{
+  color: #3c8bcc;
+
+}
+
+footer a:hover{
+  opacity:50%;
+}
+
+/* NAVIGATION */
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  float: right;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #fcb6b8;
+  background-color: #3c8bcc;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+ 
+  z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: #fcb6b8;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* IMAGE GRID */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: auto;
+}
+  
+  /* Create two not 4 equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    margin: auto;
+    
+    
+  }
+  
+  .column img {
+    
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+
+/* OVERLAYS */
+
+
+
+  .container {
+    position: relative;
+    
+  }
+
+
+  
+  .image {
+    display: block;
+    
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3c8bcc;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+  
+  /*cher*/
+
+  .overlaya {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFF3C2;
+  }
+  
+  .container:hover .overlaya {
+    opacity: 1;
+  }
+
+/*rihanna green fur*/
+
+  .overlayb {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #D1E3B6;
+  }
+  
+  .container:hover .overlayb {
+    opacity: 1;
+  }
+
+/*gigi ball look*/
+
+  .overlayc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #C3AFD5;
+  }
+  
+  .container:hover .overlayc {
+    opacity: 1;
+  }
+
+
+/*gigi ice cream look*/
+
+  .overlayd {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F7C2CC;
+  }
+  
+  .container:hover .overlayd {
+    opacity: 1;
+  }
+
+
+/*harry styles*/
+
+  .overlaye {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#C5DCEA;
+  }
+  
+  .container:hover .overlaye {
+    opacity: 1;
+  }
+
+
+/*rihanna glitter look*/
+
+  .overlayf {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FDE8E1;
+  }
+  
+  .container:hover .overlayf {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
