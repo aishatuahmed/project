@@ -186,7 +186,7 @@ footer a:hover{
 
 .navbar a {
   float: left;
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 16px;
@@ -204,7 +204,7 @@ footer a:hover{
 
 
 .dropdown .dropbtn {
-  font-size: 15px;
+  font-size: 14px;
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
